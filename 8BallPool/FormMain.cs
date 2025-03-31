@@ -45,8 +45,8 @@ namespace _8BallPool
         private void DrawCorners(Graphics g)
         {
             Point referencePoint, coordHor, coordVer;
-            int lineSize = 40;
-            int lineHeight = 4;
+            int lineSize = 60;
+            int lineHeight = 5;
             Pen myPen = new Pen(Color.FromArgb(128, 0, 0, 255), lineHeight);
             // top left
             referencePoint = Role.GetPoint(RolePosition.TopLeft);
