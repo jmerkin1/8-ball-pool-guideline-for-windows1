@@ -12,7 +12,7 @@ namespace _8BallPool
 {
     public partial class FormMain : Form
     {
-        private readonly int refferBallSize = 45;
+        private readonly int refferBallSize = 60;
         private Point lastBallPosition;
         private System.Windows.Forms.MouseButtons lastMouseButton;
 
